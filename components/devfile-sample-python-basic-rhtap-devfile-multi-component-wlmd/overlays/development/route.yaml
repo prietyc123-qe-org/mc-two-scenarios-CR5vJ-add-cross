@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-python-basic-rhtap-devfile-multi-component-wlmd
     app.kubernetes.io/part-of: mc-two-scenarios
-  name: devfile-sample-python-bashd6f
+  name: devfile-sample-python-basoxwy
 spec:
   path: /
   port:
