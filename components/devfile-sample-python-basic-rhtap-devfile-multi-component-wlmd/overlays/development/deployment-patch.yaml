@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-rhtap-devfile-multi-component-wlmd
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pkumari_org/multi-comp-e2e-wgjf-tenant/mc-two-scenarios/devfile-sample-python-basic-rhtap-devfile-multi-component-wlmd@sha256:59a234c27fd7f6a0ac21a71219614cc68057677a7574d27a3d9c7d2e056c0be3
+        name: my-python
+        resources: {}
+status: {}
