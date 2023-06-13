@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-java-springboot-basic-rhtap-devfile-multi-c-jz7r
     app.kubernetes.io/part-of: mc-two-scenarios
-  name: devfile-sample-java-sprinxy1y
+  name: devfile-sample-java-sprinuolc
 spec:
   path: /
   port:
